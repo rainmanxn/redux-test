@@ -74,7 +74,7 @@ function SelectedUser({ userId }: { userId: UserId }) {
         onClick={handleBackButtonClick}
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded md"
       >
-        Back
+        Назад
       </button>
       <h2 className="text-3xl">{user.name}</h2>
       <p className="text-xl">{user.description}</p>
