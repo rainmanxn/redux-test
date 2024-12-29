@@ -17,7 +17,7 @@ export const initialUsersList: User[] = Array.from(
   { length: 3000 },
   (_, index) => ({
     id: `user${index + 11}`,
-    name: `User ${index + 11}`,
+    name: `Пользователь ${index + 11}`,
     description: `Отписание пользователя ${index + 11}`,
   })
 );
