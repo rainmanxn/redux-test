@@ -3,7 +3,7 @@ import { useAppDispath, useAppSelector } from "../../store";
 import { UserId, usersSlice } from "./users.slice";
 
 export function UsersList() {
-  const [sortType, setSortType] = useState<"asc" | "desc">("asc");
+  const [sortType, setSortType] = useState<"desc" | "asc">("asc");
 
   const sortedUsers = useAppSelector((state) =>
     usersSlice.selectors.selectSortedUsers(state, sortType)
