@@ -77,7 +77,7 @@ function SelectedUser({ userId }: { userId: UserId }) {
         Назад
       </button>
       <h2 className="text-3xl">Имя {user.name}</h2>
-      <p className="text-xl">Описание {user.description}</p>
+      <p className="text-xl">Полное описание {user.description}</p>
     </div>
   );
 }
