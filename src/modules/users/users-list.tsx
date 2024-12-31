@@ -56,7 +56,7 @@ const UserListItem = memo(function UserListItem({
   };
   return (
     <li key={user.id} className="py-2" onClick={handleUserClick}>
-      <span className="hover:underline cursor-pointer">{user.name}</span>
+      <span className="hover:underline cursor-pointer">Имя {user.name}</span>
     </li>
   );
 });
